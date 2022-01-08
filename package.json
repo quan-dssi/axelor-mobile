@@ -3,7 +3,7 @@
   "start": "lerna run start --scope web-ui",
   "test": "lerna run test --scope web-ui",
   "start-hr": "lerna run start --scope web-hr-ui",
-  "build": "lerna run prepublish --scope '@axelor/*' && lerna bootstrap"
+  "build": "lerna run prepublish --scope=@axelor/{web-client,web-client-adk,web-client-adk-module,eb-client-node} && lerna bootstrap"
  },
  "devDependencies": {
   "babel-cli": "^6.24.1",
